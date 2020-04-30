@@ -1,0 +1,44 @@
+{
+  "name": "@khatastroffik/grunt-git-push",
+  "description": "Grunt.js plugin that execute 'git push' commands",
+  "version": "1.0.0",
+  "homepage": "https://github.com/khatastroffik/grunt-git-push",
+  "author": {
+    "name": "Loïs Bégué",
+    "url": "https://github.com/khatastroffik"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/khatastroffik/grunt-git-push.git"
+  },
+  "bugs": {
+    "url": "https://github.com/khatastroffik/grunt-git-push/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~1.1.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-nodeunit": "^2.1.0",
+    "standard-version": "^7.1.0"
+  },
+  "keywords": [
+    "gruntplugin",
+    "grunt",
+    "grunt-task",
+    "git",
+    "push",
+    "GitHub",
+    "release",
+    "release-automation",
+    "ci",
+    "integration"
+  ]
+}
